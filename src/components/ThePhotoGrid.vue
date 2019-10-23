@@ -77,7 +77,6 @@ p {
   margin: 0 auto 100px;
   font-weight: 500;
   position: relative;
-  width: 500px;
 }
 .grid-item {
   max-width: 33%;
@@ -95,6 +94,17 @@ p {
     height: auto;
     width: 100%;
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+  .grid-item {
+    max-width: 50%;
+    width: 50%;
+    padding: 0 5px 10px;
   }
 }
 </style>

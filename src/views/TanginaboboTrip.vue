@@ -24,4 +24,11 @@ export default {
   box-sizing: border-box;
   width: 100%;
 }
+@media (max-width: 768px){
+  .mainContainer {
+    padding-top: 85px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 </style>
