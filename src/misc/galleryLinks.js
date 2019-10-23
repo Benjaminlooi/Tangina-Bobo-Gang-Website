@@ -306,3 +306,7 @@ export const tgnbbtrip_min = [
   "DSC00817.jpg",
   "DSC00822.jpg"
 ]
+
+export const rayymondmpp = [
+  'DSC00921.jpg', 'DSC00922.jpg', 'DSC00923.jpg', 'DSC00924.jpg', 'DSC00925.jpg', 'DSC00929.jpg', 'DSC00935.jpg', 'DSC00942.jpg', 'DSC00943.jpg', 'DSC00944.jpg', 'DSC00945.jpg', 'DSC00946.jpg', 'DSC00947.jpg', 'DSC00948.jpg', 'DSC00949.jpg', 'DSC00950.jpg', 'DSC00953.jpg', 'DSC00955.jpg', 'DSC00956.jpg', 'DSC00957.jpg', 'DSC00959.jpg', 'DSC00960.jpg', 'DSC00961.jpg', 'DSC00968.jpg'
+]

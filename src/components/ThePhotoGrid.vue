@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class>Sabah Trip</p>
+    <p class>{{gallery}}</p>
     <div class="grid" id="gallery">
       <div class="grid-item" v-for="(item, index) in items" :key="index">
         <div>
@@ -26,7 +26,7 @@
 import Masonry from "masonry-layout";
 import imagesLoaded from "imagesloaded";
 import AOS from "aos";
-import { tgnbbtrip_min } from "@/misc/galleryLinks";
+import { tgnbbtrip_min, rayymondmpp } from "@/misc/galleryLinks";
 
 export default {
   name: "ThePhotoGrid",
@@ -41,6 +41,8 @@ export default {
       switch (this.gallery) {
         case "tgnbbtrip":
           return [...tgnbbtrip_min];
+        case "rayymondmpp":
+          return [...rayymondmpp];
         default:
           return null;
       }
