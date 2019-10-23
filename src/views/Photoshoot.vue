@@ -1,7 +1,7 @@
 <template>
   <div class="tgnbbtrip">
     <div class="mainContainer">
-      <ThePhotoGrid gallery="tgnbbtrip" />
+      <ThePhotoGrid />
     </div>
   </div>
 </template>
