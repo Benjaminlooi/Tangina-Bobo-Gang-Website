@@ -26,7 +26,11 @@
 import Masonry from "masonry-layout";
 import imagesLoaded from "imagesloaded";
 import AOS from "aos";
-import { tgnbbtrip_min, rayymondmpp, gangphotoshoot } from "@/misc/galleryLinks";
+import {
+  tgnbbtrip_min,
+  rayymondmpp,
+  gangphotoshoot
+} from "@/misc/galleryLinks";
 
 export default {
   name: "ThePhotoGrid",
